@@ -165,7 +165,7 @@ int main(int argc, char *argv[])
     /* Comentado abaixo porque não existe a função busca_valor
      * Você deve inmplementar ela
      * */
-    resp = busca_valor(r, valor);
+    // resp = busca_valor(r, valor);
 	
 	if (resp == NULL){
 		printf("%d não encontrado na árvore\n", valor);
@@ -180,7 +180,7 @@ int main(int argc, char *argv[])
     /* Comentado abaixo porque não existe a função busca_nome
      * Você deve inmplementar ela
      * */
-    resp = busca_nome(r, nome);
+    // resp = busca_nome(r, nome);
 
 	if (resp == NULL){
 		printf("%s não encontrado na árvore\n", nome);
@@ -189,12 +189,12 @@ int main(int argc, char *argv[])
 		imprimeNO(resp);
 	}    
 	
-	totsal = contabiliza(r);
+	// totsal = contabiliza(r);
     /* A funcao contabiliza você implementa. Ela deve retornar a soma 
      * de todos os salários
      * */
 	printf("Total de salarios = R$ %7.2lf\n", totsal);
     // DESALOCA
-    desaloca(r);
+    // desaloca(r);
 }
 
